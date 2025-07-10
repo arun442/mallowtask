@@ -13,10 +13,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+        "typeRoots": ["./node_modules/@types", "./types"],
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts","types/**/*", "**/*.ts", "**/*.tsx", "src/tailwind.config.js", "src/components/content/ServiceContent.js", "src/components/Sidebar.js", "src/pages/_document.jsx", "src/pages/index.jsx", "src/pages/_app.jsx"],
   "exclude": ["node_modules"]
 }
