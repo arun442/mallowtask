@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+This is a [Next.js](https://nextjs.org) project tailwind with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+
+note:Because create-react-app is deprecated so i use next js.
 
 ## Getting Started
 
